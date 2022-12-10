@@ -30,7 +30,7 @@ const App: FC<AppProps> = (props) => {
   const { chains, provider } = configureChains(
     [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
     [
-      alchemyProvider({ apiKey: process.env.ALCHEMY_ID }),
+      alchemyProvider({ apiKey: "v_ARaQWW4qVEC0ZsjeutSHswvZ_y5t2S" }),
       publicProvider()
     ]
   );
